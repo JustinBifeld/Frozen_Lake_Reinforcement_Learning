@@ -11,3 +11,5 @@ HFFG       (G: goal, where the frisbee is located)
 The episode ends when you reach the goal or fall in a hole. You receive a reward of 1 if you reach the goal, and zero otherwise.
 
 This implementation uses a Q-Table to represent our state spaces and action spaces.  The states are every tile in the game (16 in total) and the actions are the possible moves (up, down, left, right).  This serves as a great introduction to reinforcement learning and specifically Q-learning.  
+
+![Frozen Lakes](https://github.com/justin02-dev/Frozen_Lake_Reinforcement_Learning/blob/master/Assets/Frozen_Lakes_Goal_Reached_Image.png)
